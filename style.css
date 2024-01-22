@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: rgb(120, 81, 199);
+  color: rgb(241, 241, 241);
+}
+.app {
+  border-radius: 14px;
+  padding: 20px 40px;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(109, 42, 255); */
+}
+.app:hover {
+  transform: scale(1.01);
+}
